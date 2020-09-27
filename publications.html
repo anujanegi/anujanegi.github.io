@@ -1,0 +1,30 @@
+---
+layout: default
+title: Publications
+---
+<div class="content-wrapper">
+  <div class="inner-container container">
+      <div class="row">
+          <div class="section-header col-md-12">
+              <h2>Publications</h2>
+          </div> <!-- /.section-header -->
+      </div> <!-- /.row -->
+      <div class="row">
+          {% assign publications = site.publications | sort: "year" | reverse %}
+          {% for pub in publications %}
+          <div class="col-md-12 publication-item">
+              <div class="publication-content">
+                <div class="publication-icon">
+                    <img class="publication-icon" src="/assets/images/{{ pub.url }}.png" alt="{{pub.slug}}"/>
+                </div>
+                <a href="{{pub.url}}" style="text-decoration: none;"><h5>{{ pub.title }}</h5></a>
+                <p>{{ pub.authors }}.</p>
+                <p>{{ pub.publication }}, {{ pub.year}}. </p>
+                <p><a href="{{ pub.doi }}">DOI</a></p>
+              </div>
+          </div> <!-- /.publication-item -->
+          {% endfor %}
+
+      </div> <!-- /.row -->
+  </div> <!-- /.inner-content -->
+</div> <!-- /.content-wrapper -->
