@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="content-wrapper">
+    <div class="inner-container container">
+        <div class="row">
+            <div class="blog-info col-md-12">
+                <div class="box-content">
+                    <br>
+                    <h2 class="blog-title">{{ page.title }}</h2>
+                    <span> <b>{{ page.authors }}.</b></span> <br>
+                    <span><b>{{ page.publication }}, {{ page.year }}.</b></span>
+                    <span><a href="{{ page.doi }}">DOI</a></span>
+                    <div class="blog-image col-md-12">
+                        <img src="/assets/images/{{ page.url }}.png" alt="{{ page.url }}">
+                    </div> <!-- /.blog-image -->
+                    <p>{{ content }}</p>
+                </div>
+            </div> <!-- /.blog-info -->
+        </div> <!-- /.row -->
+    </div> <!-- /.inner-content -->
+</div> <!-- /.content-wrapper -->
