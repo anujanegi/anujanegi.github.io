@@ -1,3 +1,9 @@
 name: Anuja Negi
 url: http://anujanegi.me/
-baseurl: /
+base_url: /
+
+# publication
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:name

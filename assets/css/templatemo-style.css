@@ -734,7 +734,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
 .content-wrapper {
   border-top: 1px solid white;
   background: #efefef;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .section-header {
@@ -820,12 +820,13 @@ h3.grid-heading {
 }
 
 .publication-content {
-  border: 1px solid white;
+  border: 1px solid grey;
   padding: 20px;
+  overflow: auto;
 }
 
 .publication-item {
-  overflow: hidden;
+  overflow: auto;
   margin-bottom: 30px;
 }
 .publication-item.publication-right .publication-icon {
@@ -836,7 +837,7 @@ h3.grid-heading {
 .publication-item.publication-right .publication-content {
   text-align: left;
 }
-.publication-item.publication-left .publication-icon {
+.publication-item.publication-left {
   float: right;
   text-align: right;
   margin-left: 30px;
@@ -845,49 +846,27 @@ h3.grid-heading {
   text-align: right;
 }
 .publication-item .publication-content {
-  overflow: hidden;
+  overflow: auto;
 }
 .publication-item .publication-content h4 {
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: normal;
 }
-.publication-item .publication-icon {
-  margin-top: 15px;
-  width: 80px;
-  height: 80px;
+
+.publication-icon {
+  float: left;
+  /* margin-top: 15px; */
+  width: 100px;
+  height: 100px;
   display: block;
-  -webkit-transform: rotate(0);
-  -moz-transform: rotate(0);
-  -ms-transform: rotate(0);
-  -o-transform: rotate(0);
-  transform: rotate(0);
-  -webkit-transition: all 300ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  margin-right: 1em;
 }
-.publication-item .publication-icon i {
-  width: 80px;
-  height: 80px;
-  border: 2px solid #d5d5d5;
-  border-radius: 40px;
-  text-align: center;
-  line-height: 80px;
-  color: #2c2c2c;
+
+.publication-item img{
   display: block;
-  font-size: 1.89em;
 }
-.publication-item:hover .publication-icon {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-.publication-item:hover .publication-icon i {
-  color: #f69730;
-  border-color: #f69730;
-}
+
 @media screen and (max-width: 768px) {
   .publication-item .publication-icon {
     width: 60px;
@@ -1221,7 +1200,12 @@ div.load-more a.load-more:active {
   overflow: hidden;
 }
 .blog-image img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .blog-info h2.blog-title {
