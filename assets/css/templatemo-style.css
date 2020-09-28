@@ -163,7 +163,7 @@ textarea {
   vertical-align: top;
 }
 
-.top-header .logo span, .section-header span, .team-member span, .project-infos span.project-subtitle, .post-masonry .blog-body span, .blog-info span.blog-meta, .comment-body span {
+.top-header .logo span, .section-header span, .team-member span, .project-infos span.project-subtitle, .post-masonry .blog-list .blog-body span, .blog-info span.blog-meta, .comment-body span {
   font-size: .84em;
   color: #aaaaaa;
 }
@@ -1196,9 +1196,29 @@ div.load-more a.load-more:active {
   margin: 10px 0;
 }
 
+.blog-list {
+  font-size: 1.15em;
+}
+
+.blog-list hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.blog-list h3{
+  color: #777777;
+}
+
+.blog-list-span {
+  color: #aaaaaa;
+  display: inline;
+  font-size: .84em;
+}
+
 .blog-image {
   overflow: hidden;
 }
+
 .blog-image img {
   display: block;
   margin-left: auto;
@@ -1206,6 +1226,24 @@ div.load-more a.load-more:active {
   width: 50%;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.blog-info p {
+  font-size: 1.15em;
+  text-align: justify;
+}
+
+.blog-info blockquote {
+  font-size: .84em;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  display: block;
+}
+
+.blog-info h1 {
+  font-size: 1.25em;
 }
 
 .blog-info h2.blog-title {

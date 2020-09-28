@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<!-- <h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+{{ content }} -->
+
+<div class="content-wrapper">
+    <div class="inner-container container">
+        <div class="row">
+            <div class="blog-info col-md-12">
+                <div class="box-content">
+                    <br>
+                    <h2 class="blog-title">{{ page.title }}</h2>
+                    <span> <b>{{ page.date | date_to_string }}</b></span> <br>
+                    <!-- <span><a href="">DOI</a></span> add tags here -->
+                    <br>
+                    <p>{{ content }}</p>
+                </div>
+            </div> <!-- /.blog-info -->
+        </div> <!-- /.row -->
+    </div> <!-- /.inner-content -->
+</div> <!-- /.content-wrapper -->

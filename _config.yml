@@ -7,3 +7,5 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
+
+permalink: /:categories/:year/:title
