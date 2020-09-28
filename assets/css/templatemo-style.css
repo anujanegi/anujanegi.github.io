@@ -762,6 +762,10 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   overflow: hidden;
 }
 
+.box-content hr {
+  margin: 25px;
+}
+
 .intro-header {
   margin-bottom: 30px;
 }
@@ -1273,6 +1277,16 @@ div.load-more a.load-more:active {
 .blog-tags a:after {
   content: ',';
   color: #aaaaaa;
+}
+
+.label {
+  color:  #f5f5f5;
+  padding: 8px;
+  background-color: #777777;
+  margin-right: 4px;
+  margin-top: 40px;
+  margin-bottom: 4px;
+  border-radius: 5px;
 }
 
 .pagination {

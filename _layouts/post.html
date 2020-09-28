@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<!-- <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
-{{ content }} -->
-
 <div class="content-wrapper">
     <div class="inner-container container">
         <div class="row">
@@ -13,10 +8,27 @@ layout: default
                 <div class="box-content">
                     <br>
                     <h2 class="blog-title">{{ page.title }}</h2>
-                    <span> <b>{{ page.date | date_to_string }}</b></span> <br>
-                    <!-- <span><a href="">DOI</a></span> add tags here -->
-                    <br>
+                    {% for tag in site.tags %}
+                        <a class="label" href="/tags/#{{ tag[0] }}">{{ tag[0] }}</a>
+                    {% endfor %}
+                    <br><br>
+                    <span> <b>{{ page.date | date_to_string }}</b></span>
+                    <hr>
+                    
                     <p>{{ content }}</p>
+
+                    <hr>
+
+                    <h1>Recent posts <br>
+                    {% for post in site.posts offset limit:3 %}
+                        {% if page.title != post.title %}
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            <span class="blog-list-span">{{ post.date | date_to_string }}</span>
+                            <br>
+                       {% endif %}
+                    {% endfor %}
+                    </h1>
+
                 </div>
             </div> <!-- /.blog-info -->
         </div> <!-- /.row -->
