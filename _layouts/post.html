@@ -8,14 +8,14 @@ layout: default
                 <div class="box-content">
                     <br>
                     <h2 class="blog-title">{{ page.title }}</h2>
-                    {% for tag in site.tags %}
-                        <a class="label" href="/tags/#{{ tag[0] }}">{{ tag[0] }}</a>
+                    {% for tag in page.tags %}
+                        <a class="label" href="/tags/#{{ tag }}">{{ tag }}</a>
                     {% endfor %}
                     <br><br>
                     <span> <b>{{ page.date | date_to_string }}</b></span>
                     <hr>
                     
-                    <p>{{ content }}</p>
+                    {{ content }}
 
                     <hr>
 
