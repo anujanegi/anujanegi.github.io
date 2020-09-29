@@ -9,7 +9,7 @@ layout: default
                     <br>
                     <h2 class="blog-title">{{ page.title }}</h2>
                     {% for tag in page.tags %}
-                        <a class="label" href="/tags/#{{ tag }}">{{ tag }}</a>
+                        <a class="label" href="/tags#{{ tag }}">{{ tag }}</a>
                     {% endfor %}
                     <br><br>
                     <span> <b>{{ page.date | date_to_string }}</b></span>
