@@ -5,6 +5,8 @@ title: Neuroscience Inspired Artificial Intelligence
 tags: [Papers-I-Read, Neuroscience, Artificial Intelligence]
 ---
 
+[Link to Paper](https://deepmind.com/research/publications/neuroscience-inspired-artificial-intelligence)
+
 The fields of neuroscience and artificial intelligence are unquestionably intertwined. To bridge the declining communication between the fields, the authors survey past interactions in the fields and talk about the current advances in AI that are inspired by neuroscience. The paper concludes by how future research can advantage from drawing insights from both disciplines and also explores how neuroscience can be benefited from AI.
 
 The paper begins with the premise that to build Turing intelligent systems, one must scrutinize and learn from the human mind - the only existing proof of such an intelligent system. Neuroscience can hence not only provide inspiration for the development of these intelligent systems but also be a validation tool for AI techniques if it is subsequently found in the human brain.

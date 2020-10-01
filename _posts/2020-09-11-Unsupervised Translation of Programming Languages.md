@@ -5,6 +5,8 @@ title: Unsupervised Translation of Programming Languages
 tags: [Papers-I-Read, Transcompiler, Unsupervised Learning]
 ---
 
+[Link to Paper](https://arxiv.org/abs/2006.03511)
+
 The paper introduces a novel unsupervised neural transcompiler, by purely using monolingual open source code from public Github repositories. The transcompiler is capable of converting code between C++, Java and Python programs, outperforming existing benchmarks. 
 
 Majority of existing transcompilers are rule-based and have several disadvantages - tedious to write handcrafted rules, requires expertise in both source and target programming languages and issues with inferring variables from a dynamically to statically typed language. Other supervised approaches fall short due to the limited availability of parallel data. Hence, being able to do unsupervised machine translation discards all this.

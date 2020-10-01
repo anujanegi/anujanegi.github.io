@@ -5,6 +5,8 @@ title: Natural Image Reconstruction from Brain Waves - a Novel Visual BCI System
 tags: [Papers-I-Read, Image Reconstruction, Brain Computer Interface, EEG]
 ---
 
+[Link to Paper](https://www.biorxiv.org/content/10.1101/787101v3)
+
 Utilizing non-invasive EEG recordings, the paper introduces a closed BCI system capable of reconstructing observed or imagined stimuli images from co-occurring brain parameters. The authors are successfully able to gather from the advantages of both synchronous and asynchronous BCI systems. They use the correlation between long-term evoked responses and mental states triggered by a particular simulation, along with native feedback, to develop this novel BCI paradigm.
 
 The two main objectives of the research are to study the brain activity upon continuous visual stimuli and to then develop a model capable of mapping these EEG features to the stimuli and hence reconstruct the natural image back. 

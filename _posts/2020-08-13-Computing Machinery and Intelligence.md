@@ -5,6 +5,8 @@ title: Computing Machinery and Intelligence
 tags: [Papers-I-Read, Turing Test, Imitation Game]
 ---
 
+[Link to Paper](https://academic.oup.com/mind/article/LIX/236/433/986238)
+
 This paper laid foundations of the highly influential Turing test by exploring the question “Can machines think?”.  To answer this question unambiguously, it is replaced by yet another question, “Are there imaginable digital computers which would do well in the imitation game”?
 
 The proposed imitation game has 3 subjects - A and B being a machine and a human, and C being the interrogator who is tasked to make the correct identification. This has to be done without sight, touch, voice, or any demands of practical demonstration. It is argued that this test shouldn’t be critiqued as the odds are heavily against the machine. 
