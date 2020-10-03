@@ -10,6 +10,25 @@ body {
   line-height: 1;
 }
 
+.darkmode--activated .main-header .menu-wrapper ul li a {
+  color: #aaaaaa;
+}
+
+.darkmode--activated .section-header h2 {
+  color: #aaaaaa;
+}
+.darkmode--activated .publication-content h5{
+  color: #aaaaaa;
+}
+
+.darkmode--activated .blog-info h2.blog-title{
+  color: #aaaaaa;
+}
+
+.darkmode--activated .blog-info h1{
+  color: #777777;
+}
+
 .blue {
 	color: #39F;
 	font-weight: normal;
