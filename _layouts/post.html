@@ -22,7 +22,7 @@ layout: default
                     <hr>
 
                     <h1>Recent posts <br>
-                    {% for post in site.posts offset limit:4 %}
+                    {% for post in site.posts limit:4 %}
                         {% if page.title != post.title %}
                             <a href="{{ post.url }}">{{ post.title }}</a>
                             <span class="blog-list-span">{{ post.date | date_to_string }}</span>
