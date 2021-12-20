@@ -13,7 +13,7 @@ Pain is a very subjective experience. To objectively quantify it, we look at the
 
 It is relevant for science to research the nature of pain and attempt to quantify it objectively. But are the current methods accurate enough to be used in court? Given how fMRI scans have been regarded as evidence for pain in court, it is critical to scrutinize the feasibility of pain imaging both from a technical and ethical point of view and discuss its limitations.
 
-**Technical Feasibility**\
+**Technical Feasibility**
 
 Given the current state of the art, it is fair to say that the current advancement in pain measurement by brain imaging is not reliable. Maybe it will be sometime in the future, but not now. Pain cannot be reliably localized to a particular brain region. Hence finding biomarkers might be advantageous. Even if the exact biomarkers are known, the challenge exists in quantifying the degree of pain at a personal level and associating it with brain regions and brain activity. 
 
@@ -23,7 +23,7 @@ fMRI mainly measures blood flow and has a poor temporal resolution which is an i
 
 It is crucial to think about how one might fool the imaging by thinking of pain. People could also physically/mentally hurt themselves before a scan to get a positive result. Therefore, a better understanding of pain signatures and their causes is of need. However, the potential for easily deceiving the method should not prevent us from studying this further.
 
-**Ethical Analysis**\
+**Ethical Analysis**
 
 Let us assume that we have a perfect way of detecting and quantifying pain using fMRI. Even then it is questionable to measure how much pain a person is in, let alone use it is as evidence in court. Can courts even accept such brain imaging results as proof of pain? If yes, how much weightage should be given to such evidence, given how there is a clear “neuro” bias found in public.
 
