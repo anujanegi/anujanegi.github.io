@@ -17,10 +17,7 @@ jobs:
       run: |
         set -xo pipefail
         rm -rf _site/*
-        gem install bundler
-        bundle install
-        bundle exec jekyll build
-        cp CNAME _site/CNAME
+        ./bin/deploy
     - name: Deploy
       if: github.ref == 'refs/heads/source'
       env:
