@@ -17,7 +17,9 @@ jobs:
       run: |
         set -xo pipefail
         rm -rf _site/*
-        docker run --rm -v "$PWD:/srv/jekyll" --user $(id -u):$(id -g) -i anujanegi/anujanegi.github.io:latest jekyll build
+        gem install bundler
+        bundle install
+        bundle exec jekyll build
         cp CNAME _site/CNAME
     - name: Deploy
       if: github.ref == 'refs/heads/source'
