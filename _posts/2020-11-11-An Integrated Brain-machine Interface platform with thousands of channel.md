@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
-title: An Integrated Brain-machine Interface platform with thousands of channel
-tags: [Papers-I-Read, BCI, Neuroscience]
+tags: papers-i-read bci neuroscience
+title: An Integrated Brain-machine Interface platform with thousands of channels
 ---
 
 [Link to Paper](https://www.biorxiv.org/content/10.1101/703801v4)

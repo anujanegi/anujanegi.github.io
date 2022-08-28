@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read neuroscience
 title: Slow Dynamics and High Variability in Balanced Cortical Networks with Clustered Connection
-tags: [Papers-I-Read, Neuroscience, Nature]
 ---
 
 [Link to Paper](https://www.nature.com/articles/nn.3220)

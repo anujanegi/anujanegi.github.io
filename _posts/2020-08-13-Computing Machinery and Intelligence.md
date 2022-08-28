@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read
 title: Computing Machinery and Intelligence
-tags: [Papers-I-Read, Turing Test, Imitation Game]
 ---
 
 [Link to Paper](https://academic.oup.com/mind/article/LIX/236/433/986238)

@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read image-reconstruction bci eeg
 title: Natural Image Reconstruction from Brain Waves - a Novel Visual BCI System with Native Feedback
-tags: [Papers-I-Read, Image Reconstruction, Brain Computer Interface, EEG]
 ---
 
 [Link to Paper](https://www.biorxiv.org/content/10.1101/787101v3)

@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read neuroscience artificial-intelligence
 title: Neuroscience Inspired Artificial Intelligence
-tags: [Papers-I-Read, Neuroscience, Artificial Intelligence]
 ---
 
 [Link to Paper](https://deepmind.com/research/publications/neuroscience-inspired-artificial-intelligence)

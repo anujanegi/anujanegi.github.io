@@ -1,8 +1,9 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read deep-learning generalization
 title: Understanding Deep Learning requires Rethinking Generalization
-tags: [Papers-I-Read, Deep Learning, Generalization, ICLR]
+description: 
+
 ---
 
 [Link to Paper](https://arxiv.org/abs/1611.03530)

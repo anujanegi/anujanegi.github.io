@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read deep-learning AlphaZero
 title: Assessing Game Balance with AlphaZero- Exploring Alternative Rule Sets in Chess
-tags: [Papers-I-Read, Deep Learning, AlphaZero]
 ---
 
 [Link to Paper](https://arxiv.org/pdf/2009.04374.pdf)

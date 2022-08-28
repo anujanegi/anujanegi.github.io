@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read reinforcement-learning
 title: Human level Control through Deep Reinforcement Learning
-tags: [Papers-I-Read, Reinforcement Learning, Nature]
 ---
 
 [Link to Paper](https://www.nature.com/articles/nature14236?wm=book_wap_0005)

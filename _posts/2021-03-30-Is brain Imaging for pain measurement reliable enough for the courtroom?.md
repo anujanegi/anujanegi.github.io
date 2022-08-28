@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read neuroscience ethics
 title: Is brain Imaging for pain measurement reliable enough for the courtroom?
-tags: [Papers-I-Read, Neuroscience, Ethics, Nature]
 ---
 
 [Link to Paper](https://www.nature.com/news/neuroscience-in-court-the-painful-truth-1.16985)

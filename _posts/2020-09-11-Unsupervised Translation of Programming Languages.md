@@ -1,8 +1,7 @@
 ---
 layout: post
-categories: Papers-I-Read
+tags: papers-i-read unsupervised-learning
 title: Unsupervised Translation of Programming Languages
-tags: [Papers-I-Read, Transcompiler, Unsupervised Learning]
 ---
 
 [Link to Paper](https://arxiv.org/abs/2006.03511)
