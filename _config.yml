@@ -214,7 +214,7 @@ jekyll-archives:
     category: '/blog/category/:name/'
 
 display_tags: ['papers-i-read', 'neuroscience', 'deep learning', 'bci'] # this tags will be dispalyed on the front page of your blog
-
+# display_category: ['neuroscience', 'deep learning', 'bci'] # this categories will be displayed on the front page of your blog
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
