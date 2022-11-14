@@ -2,7 +2,7 @@
 layout: cv
 permalink: /cv/
 redirect_to:
-  - https://drive.google.com/file/d/1AFjkVlfXoeyU0einf3aznnzbiR2BU1UN/view?usp=sharing
+  - https://drive.google.com/file/d/1Lf_4-8wzkZWj9Re1iPL-OxP5vyQ4DFZF/view?usp=share_link
 title: cv
 nav: true
 nav_order: 4
