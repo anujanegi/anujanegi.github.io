@@ -4,4 +4,4 @@ date: 2022-06-27
 inline: true
 ---
 
-Presented poster and participated at the program for Artificial Intelligence for Signal and Image processing at Institut Pascal in Paris-Saclay University!
+Presented poster and participated in [AI4SIP](https://www.institut-pascal.universite-paris-saclay.fr/en/scientific-programs/ai4sip) at Paris-Saclay University!
