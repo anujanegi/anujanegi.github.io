@@ -1,0 +1,40 @@
+# example slider
+- selector: example_slider
+  captions: true
+  images:
+    - src: /assets/img/1.jpg
+      alt: image one
+    - src: /assets/img/2.jpg
+      alt: image two
+    - src: /assets/img/3.jpg
+      alt: image three
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+
+- selector: strokes
+  bullets: false
+  captions: false
+  images:
+    - src: /assets/img/wave.jpg
+      title: wave
+      alt: wave
+    - src: /assets/img/tense.jpg
+      title: tense
+      alt: tense
+    - src: /assets/img/kusama.jpg
+      title: kusama
+      alt: kusama
+    - src: /assets/img/matter.jpg
+      title: matter
+      alt: matter
+    - src: /assets/img/empathy.jpg
+      title: empathy
+      alt: empathy
+    - src: /assets/img/temple.jpg
+      title: temple
+      alt: temple
+  settings:
+    height: "'auto'"
+
