@@ -23,9 +23,18 @@
     - src: /assets/img/tense.jpg
       title: tense
       alt: tense
+    - src: /assets/img/shareer.jpg
+      title: shareer
+      alt: shareer
+    - src: /assets/img/thoughts.jpg
+      title: thoughts
+      alt: thoughts
     - src: /assets/img/kusama.jpg
       title: kusama
       alt: kusama
+    - src: /assets/img/perception.jpg
+      title: perception
+      alt: perception
     - src: /assets/img/matter.jpg
       title: matter
       alt: matter
