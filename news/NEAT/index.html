@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Human level Control through Deep Reinforcement Learning | Anuja  Negi</title>
+    <title>Neat | Anuja  Negi</title>
     <meta name="author" content="Anuja  Negi" />
     <meta name="description" content="Anuja's personal website.
 " />
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="/assets/img/icon.png"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/blog/2020/Human-level-Control-through-Deep-Reinforcement-Learning/">
+    <link rel="canonical" href="http://localhost:4000/news/NEAT/">
     
     <!-- Dark Mode -->
     
@@ -75,12 +75,11 @@
                 <a class="nav-link" href="/">about</a>
               </li>
               
-              <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
-              </li>
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">teaching</a>
+              </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
               </li>
@@ -111,35 +110,16 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Human level Control through Deep Reinforcement Learning</h1>
-    <p class="post-meta">October 15, 2020</p>
+    <h1 class="post-title">Neat</h1>
+    <p class="post-meta">September 2, 2024</p>
     <p class="post-tags">
-      <a href="/blog/2020"> <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-        ·  
-        <a href="/blog/tag/papers-i-read">
-          <i class="fas fa-hashtag fa-sm"></i> papers-i-read</a>  
-          <a href="/blog/tag/reinforcement-learning">
-          <i class="fas fa-hashtag fa-sm"></i> reinforcement-learning</a>  
-          
+      <a href="/blog/2024"> <i class="fas fa-calendar fa-sm"></i> 2024 </a>
 
     </p>
   </header>
 
   <article class="post-content">
-    <p><a href="https://www.nature.com/articles/nature14236?wm=book_wap_0005" target="_blank" rel="noopener noreferrer">Link to Paper</a></p>
-
-<p>Reinforcement learning is being used to master several difficult tasks. However, these agents struggle in deriving representations from high-dimensional sensory inputs. On the other hand, humans ace at these tasks through a “harmonious combination of reinforcement learning and hierarchical sensory processing system”.</p>
-
-<p>This work spans the disjoint between high dimensional inputs and actions by combining machine learning with biologically inspired techniques to create RL agents capable of mastering diverse complex tasks. A novel deep Q-network agent incorporating reinforcement learning with ANN, and replay algorithm is built.</p>
-
-<p>The deep convolutional NN is used to approximate the action-value(Q) function. Due to this nonlinear function, the RL algorithm can diverge. To stabilize this, the observations are randomized to remove correlations (though experience replay) and correlation in the trager are removed by iteratively updating Q periodically. Hence, the target’s Q-learning updates are generated separately by the network.</p>
-
-<p>The Q-network agent draws insight from experience replay, based on the neurobiological understanding that perceptual learning in the primate visual cortex is influenced by reward signals. Hence the agents experiences are stored at each time step.</p>
-
-<p>Receiving only the pixels and game score as inputs, the agent outperforms human experts, while surpassing all current benchmarks on 49 Atari 2600 games. To be able to use the same learning rate across multiple games, the reward structure is modified to limit the error derivative. All positive, negative and zero rewards were clipped at 1, 21 and left unchanged respectively.</p>
-
-<p>It is interesting to note that this is achieved by using the same algorithm, network architecture and hyperparameters across all games. The agent is able to learn representations and generalise it to varied other environments and control policies, than on which it was trained.It is hence capable of learning an array of complex tasks with the same parameter set and system.</p>
-
+    <p>Presented poster on semantic representations with varying context at the <a href="https://www.kietzmannlab.org/neat2024/" target="_blank" rel="noopener noreferrer">Neuro-AI-Talks</a>, Osnabrück!</p>
 
   </article>
 
