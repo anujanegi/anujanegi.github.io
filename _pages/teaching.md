@@ -11,7 +11,7 @@ Primary instructor for the course, which introduces students experiments and dat
 
 **[Natural Language Processing in Humans and Machines](https://denizenslab.github.io/teaching/seminars/NLP_HM/)** <br>
 *(Under)graduate seminar, Technical University of Berlin, 2024* <br>
-Primary instructor for the seminar, which introduces students to basic and advanced natural language processing (NLP) teachniques and it's application in research in humans and machines. 
+Primary instructor for the seminar, which introduces students to basic and advanced natural language processing (NLP) techniques and it's application in research in humans and machines. 
 
 **[Neurocolloqium](https://denizenslab.github.io/teaching/seminars/Neurocolloqium/)** <br>
 *Journal Club, Technical University of Berlin, 2024* <br>
