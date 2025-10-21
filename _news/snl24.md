@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-08-24
+date: 2024-10-24
 inline: true
 ---
-Presented a poster on semantic representation in the brain during language comprehension at [SNL25](https://2024.neurolang.org/), Brisbane!
+Presented a poster on semantic representation in the brain during language comprehension at [SNL24](https://2024.neurolang.org/), Brisbane!
