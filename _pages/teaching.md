@@ -6,15 +6,15 @@ nav: true
 ---
 
 **[Data Science for Cognitive Neuroscience](https://denizenslab.github.io/teaching/courses/DS_CogNeuro/)** <br>
-*(Under)graduate course, Technical University of Berlin, 2024* <br>
+*(Under)graduate course, Technical University of Berlin, 2024-present* <br>
 Primary instructor for the course, which introduces students experiments and data used in cognitive neuroscience research. Taught how to comprehend, manipulate, and analyze human brain data (EEG, ECoG and fMRI) using Python, and how to develop and test hypotheses.
 
 **[Natural Language Processing in Humans and Machines](https://denizenslab.github.io/teaching/seminars/NLP_HM/)** <br>
-*(Under)graduate seminar, Technical University of Berlin, 2024* <br>
+*(Under)graduate seminar, Technical University of Berlin, 2024-present* <br>
 Primary instructor for the seminar, which introduces students to basic and advanced natural language processing (NLP) techniques and it's application in research in humans and machines. 
 
 **[Neurocolloqium](https://denizenslab.github.io/teaching/seminars/Neurocolloqium/)** <br>
-*Journal Club, Technical University of Berlin, 2024* <br>
+*Journal Club, Technical University of Berlin, 2024-present* <br>
 Help organize and lead a journal club on current topics in computational cognitive neuroscience, NLP and other cool things.
 
 **Object Oriented Programming** <br>
