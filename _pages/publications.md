@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: See the updated list on <a href='https://scholar.google.com/citations?user=Cu7zyVkAAAAJ&hl'>scholar</a>!
-years: [2022, 2020, 2018]
+years: [2025, 2024, 2022, 2020, 2018]
 nav: true
 nav_order: 1
 ---

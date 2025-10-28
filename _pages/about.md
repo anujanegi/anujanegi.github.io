@@ -23,4 +23,4 @@ Before this, I did my masters in Computational Neuroscience at [BCCN Berlin](htt
 
 I'm passionate about science communication and outreach. Currently, I'm organizing [SoapBox Science Berlin](https://berlinsoapboxscience.wordpress.com/team/) and the [German Neuroscience Olympiad](https://neurowissenschaften-olympiade.de/locations/dno-berlin/).
 
-*On the lookout for an internship — summer/fall 2026.*
+*On the lookout for an internship — summer/fall 2026, any leads are welcome!*

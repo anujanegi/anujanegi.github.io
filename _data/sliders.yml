@@ -17,33 +17,23 @@
   bullets: false
   captions: false
   images:
-    - src: /assets/img/wave.jpg
-      title: wave
-      alt: wave
-    - src: /assets/img/tense.jpg
-      title: tense
-      alt: tense
-    - src: /assets/img/shareer.jpg
-      title: shareer
-      alt: shareer
-    - src: /assets/img/thoughts.jpg
-      title: thoughts
-      alt: thoughts
     - src: /assets/img/kusama.jpg
       title: kusama
       alt: kusama
     - src: /assets/img/perception.jpg
       title: perception
-      alt: perception
-    - src: /assets/img/matter.jpg
-      title: matter
-      alt: matter
-    - src: /assets/img/empathy.jpg
-      title: empathy
-      alt: empathy
-    - src: /assets/img/temple.jpg
-      title: temple
-      alt: temple
+    - src: /assets/img/shareer.jpg
+      title: shareer
+      alt: shareer
+    - src: /assets/img/vichar.jpg
+      title: vichar
+      alt: vichar
+    - src: /assets/img/tense.jpg
+      title: tense
+      alt: tense
+    - src: /assets/img/wave.jpg
+      title: wave
+      alt: wave
   settings:
     height: "'auto'"
 
