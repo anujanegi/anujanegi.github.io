@@ -7,45 +7,4 @@
  * Copyright (C) 2014 Dev7studios
  * https://raw.githubusercontent.com/gilbitron/Ideal-Image-Slider/master/LICENSE
  */
-
-(function(IIS) {
-	"use strict";
-
-	IIS.Slider.prototype.addCaptions = function() {
-		IIS._addClass(this._attributes.container, 'iis-has-captions');
-
-		Array.prototype.forEach.call(this._attributes.slides, function(slide, i) {
-			var caption = document.createElement('div');
-			IIS._addClass(caption, 'iis-caption');
-
-			var captionContent = '';
-			if (slide.getAttribute('title')) {
-				captionContent += '<div class="iis-caption-title">' + slide.getAttribute('title') + '</div>';
-			}
-			if (slide.getAttribute('data-caption')) {
-				var dataCaption = slide.getAttribute('data-caption');
-				if (dataCaption.substring(0, 1) == '#' || dataCaption.substring(0, 1) == '.') {
-					var external = document.querySelector(dataCaption);
-					if (external) {
-						captionContent += '<div class="iis-caption-content">' + external.innerHTML + '</div>';
-					}
-				} else {
-					captionContent += '<div class="iis-caption-content">' + slide.getAttribute('data-caption') + '</div>';
-				}
-			} else {
-				if (slide.innerHTML) {
-					captionContent += '<div class="iis-caption-content">' + slide.innerHTML + '</div>';
-				}
-			}
-
-			slide.innerHTML = '';
-			if (captionContent) {
-				caption.innerHTML = captionContent;
-				slide.appendChild(caption);
-			}
-		}.bind(this));
-	};
-
-	return IIS;
-
-})(IdealImageSlider);
+!function(t){"use strict";t.Slider.prototype.addCaptions=function(){t._addClass(this._attributes.container,"iis-has-captions"),Array.prototype.forEach.call(this._attributes.slides,function(i){var e=document.createElement("div");t._addClass(e,"iis-caption");var n="";if(i.getAttribute("title")&&(n+='<div class="iis-caption-title">'+i.getAttribute("title")+"</div>"),i.getAttribute("data-caption")){var a=i.getAttribute("data-caption");if("#"==a.substring(0,1)||"."==a.substring(0,1)){var s=document.querySelector(a);s&&(n+='<div class="iis-caption-content">'+s.innerHTML+"</div>")}else n+='<div class="iis-caption-content">'+i.getAttribute("data-caption")+"</div>"}else i.innerHTML&&(n+='<div class="iis-caption-content">'+i.innerHTML+"</div>");i.innerHTML="",n&&(e.innerHTML=n,i.appendChild(e))}.bind(this))}}(IdealImageSlider);
