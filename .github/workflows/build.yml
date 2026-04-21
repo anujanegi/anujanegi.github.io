@@ -10,14 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v4
       with:
         ref: source
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
     - name: Build Jekyll site
       run: |
         set -xo pipefail
-        rm -rf _site/*
-        ./bin/deploy -u
+        rm -rf _site
+        JEKYLL_ENV=production bundle exec jekyll build
     - name: Deploy
       if: github.ref == 'refs/heads/source'
       env:
