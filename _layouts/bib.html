@@ -30,7 +30,7 @@
           <!-- Title -->
           <div class="title">
             {%- if entry.html -%}
-              <a href="{{ entry.html }}" target="_blank">{{entry.title}}</a>
+              <a href="{{ entry.html }}" target="_blank" rel="noopener noreferrer">{{entry.title}}</a>
             {%- else -%}
               {{entry.title}}
             {%- endif -%}
