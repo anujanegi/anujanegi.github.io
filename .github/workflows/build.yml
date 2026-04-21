@@ -36,6 +36,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git fetch origin master:master
+        git clean -fdx
         git checkout master
         ls -Q | grep -v _site | xargs rm -rf
         mv _site/* .
